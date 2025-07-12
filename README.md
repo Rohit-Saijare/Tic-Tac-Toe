@@ -19,8 +19,8 @@ A modern, responsive Tic Tac Toe game built using **HTML, CSS, and JavaScript**.
 
 ## 📂 Project Structure
 
-index.html # Main HTML structure
-style.css # Styling (Glassmorphism, grid, buttons)
-script.js # Game logic, mode switch, AI, scoring
+
+
+
 
 
