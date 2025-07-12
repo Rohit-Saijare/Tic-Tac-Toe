@@ -46,7 +46,7 @@ The layout adapts to different screen sizes using CSS Grid and media queries. It
 
 ## 🔗 Live Demo
  
-[👉 Play Now][https://ticitakitoie.tiiny.site/]
+[👉 Play Now](https://ticitakitoie.tiiny.site/)
 
 ---
 
