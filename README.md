@@ -30,27 +30,6 @@ A modern, responsive Tic Tac Toe game built using **HTML, CSS, and JavaScript**.
 
 ---
 
-## 🚀 Getting Started
-
-### 🔧 Requirements
-- A modern web browser (Chrome, Firefox, Edge, etc.)
-
-### ▶️ How to Run Locally
-
-1. **Clone this repository:**
-   ```bash
-   git clone https://github.com/your-username/tic-tac-toe.git
-   ```
-
-2. **Open the folder in your system.**
-
-3. **Run the app:**
-   - Just double-click `index.html`  
-   OR  
-   - Use **Live Server** in VS Code for live preview
-
----
-
 ## 📱 Responsive UI
 
 The layout adapts to different screen sizes using CSS Grid and media queries. It's mobile-friendly by default.
@@ -65,20 +44,9 @@ The layout adapts to different screen sizes using CSS Grid and media queries. It
 
 ---
 
-## 🛠️ Future Improvements
-
-- 💡 Smart AI using Minimax
-- 🌗 Dark / Light Mode toggle
-- 🔊 Sound effects on actions
-- 💾 Score saving via localStorage
-- ✨ Animations on win line
-
----
-
 ## 🔗 Live Demo
-
-> *(Optional: Add a GitHub Pages or Netlify link here if hosted)*  
-[👉 Play Now](https://your-live-link-if-you-have-one.com)
+ 
+[👉 Play Now][https://ticitakitoie.tiiny.site/]
 
 ---
 
@@ -89,7 +57,7 @@ This project is open-source and available under the **MIT License**.
 ```
 MIT License
 
-Copyright (c) 2025 [Your Name]
+Copyright (c) 2025 [Rohit-Saijare]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
