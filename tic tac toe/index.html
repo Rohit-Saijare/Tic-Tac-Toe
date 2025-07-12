@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container" id="gameContainer">
+    <h1>Tic Tac Toe</h1>
+<!-- Game Mode Selector -->
+<div class="mode-select">
+  <label for="mode">Mode:</label>
+  <select id="mode" onchange="restartGame()">
+    <option value="pvp">Player vs Player</option>
+    <option value="ai">Player vs AI</option>
+  </select>
+</div>
+
+<!-- Scoreboard + rest of your content... -->
+
+    <!-- Scoreboard -->
+    <div class="scoreboard">
+      <div>X: <span id="scoreX">0</span></div>
+      <div>O: <span id="scoreO">0</span></div>
+      <div>Draws: <span id="scoreDraw">0</span></div>
+    </div>
+
+    <div class="board" id="board">
+      <div class="cell" data-index="0"></div>
+      <div class="cell" data-index="1"></div>
+      <div class="cell" data-index="2"></div>
+      <div class="cell" data-index="3"></div>
+      <div class="cell" data-index="4"></div>
+      <div class="cell" data-index="5"></div>
+      <div class="cell" data-index="6"></div>
+      <div class="cell" data-index="7"></div>
+      <div class="cell" data-index="8"></div>
+    </div>
+
+    <div class="status" id="status">Player X's turn</div>
+    <button class="restart" onclick="restartGame()">Restart</button>
+  </div>
+
+  <!-- Result Screen -->
+  <div class="result-screen" id="resultScreen">
+    <h2 id="resultMessage">Player X wins!</h2>
+    <button class="restart" onclick="startNewGame()">New Game</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
